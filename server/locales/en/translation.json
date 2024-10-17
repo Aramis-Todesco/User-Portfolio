@@ -1,0 +1,11 @@
+{
+  "userGreeting": "Hello",
+  "userSignature": "Best regards",
+  "userInstructions": "To return to the website",
+  "btnText": "Click here!",
+  "userIntro": "Thank you for contacting me! Here is a copy of your message:",
+  "userOutro": "Thank you for your communication. I will respond to you as soon as possible.",
+  "successMessage": "Email sent successfully.",
+  "errorMessage": "Error sending the email.",
+  "userSubject": "Thank you for your message!"
+}

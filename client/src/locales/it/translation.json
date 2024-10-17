@@ -1,0 +1,226 @@
+{
+  "menu": {
+    "home": "Home",
+    "about": "Chi sono",
+    "education": "Educazione",
+    "tech": "Tech Stack",
+    "projects": "Progetti",
+    "work_exp": "Carriera",
+    "contact": "Contatti"
+  },
+  "home": {
+    "options": {
+      "1": "Sviluppatore Fullstack!",
+      "2": "Sviluppatore MERN Stack!"
+    },
+    "cv": "IT.pdf"
+  },
+  "about": {
+    "title": "Chi sono",
+    "text": "Ciao! Sono Aramis Todesco, un appassionato Junior Web Developer impegnato a esplorare il dinamico mondo della tecnologia. Dopo aver acquisito preziosa esperienza nell'industria della ristorazione, dove ho affinato le mie capacità di lavoro di squadra, gestione del tempo e servizio al cliente, ho deciso di orientare la mia carriera verso lo sviluppo web, un campo che mi affascina per le sue infinite possibilità di creatività e innovazione. \n\n Il mio percorso nella programmazione è iniziato con il desiderio di creare e costruire, portandomi a specializzarmi in tecnologie web moderne. Mi piace affrontare nuove sfide e migliorare continuamente le mie competenze attraverso progetti pratici e apprendimento dedicato."
+  },
+  "education": {
+    "title": "Competenze & Formazione",
+    "remote": "Remoto",
+    "progress": "in corso",
+    "maffioli": {
+      "info": "Durante il mio percorso all'I.P.S.S.E.O.A. Giuseppe Maffioli, ho approfondito le mie competenze culinarie attraverso una formazione pratica e teorica. Ho appreso tecniche di preparazione e presentazione dei piatti, lavorando con ingredienti freschi e locali. Partecipando a eventi e competizioni gastronomiche, ho sviluppato creatività e passione per l'arte culinaria, consolidando il mio rispetto per la qualità e la sostenibilità in cucina."
+    },
+    "cafoscari": {
+      "info": "Attualmente, sto frequentando l'Università Ca' Foscari di Venezia, dove studio Lingue, culture e società dell'Asia e dell'Africa Mediterranea. Questo percorso mi offre l'opportunità di esplorare le diverse culture, lingue e tradizioni di queste regioni, approfondendo la mia comprensione delle dinamiche sociali e culturali che le caratterizzano. Le lezioni interattive e i progetti di ricerca mi permettono di sviluppare competenze linguistiche e analitiche, preparandomi per una carriera nel campo delle relazioni internazionali e della cooperazione culturale."
+    },
+    "digitazon": {
+      "info": "Ho completato il mio primo corso di Fullstack Developer Mern presso Digitazon School, dove ho acquisito competenze nello sviluppo di applicazioni web. Durante il programma, ho imparato a utilizzare tecnologie come MongoDB, Express.js, React e Node.js per creare soluzioni complete e funzionali. Questa formazione mi ha permesso di sviluppare sia le competenze front-end che back-end, preparandomi per una carriera nel campo dello sviluppo software. "
+    },
+    "getapper": {
+      "info": "Attualmente sto frequentando il corso di Fullstack Developer presso Getapper Academy, dove acquisisco competenze in JavaScript, TypeScript, React, Node e NextJs. Questa academy offre materiali didattici di alta qualità e tutoraggio pratico, focalizzandosi non solo sullo sviluppo, ma anche su strumenti per il lavoro collaborativo e il deployment su cloud."
+    },
+    "eduforma": {
+      "info": "Nel corso di Back-end Developer specializzato in Database e framework MVC, acquisirò competenze avanzate nella progettazione, implementazione e gestione di database. Imparerò a garantire la consistenza, l'integrità e la sicurezza dei dati. Grazie a un tirocinio pratico e a attività di orientamento, sarò preparato ad affrontare le sfide del mondo del lavoro nel settore IT."
+    }
+  },
+  "tech": {
+    "title": "Tecnologie Utilizzate",
+    "text": "👉 inclusi linguaggi di programmazione, framework, database, strumenti per il front-end e il back-end, e API",
+    "programLng": {
+      "title": "Linguaggi di Programmazione",
+      "description": {
+        "html": "(HyperText Markup Language) è il linguaggio di base utilizzato per costruire le pagine web. È come la struttura portante di un sito: permette di creare e organizzare testi, immagini, pulsanti, link, e tutti gli altri elementi visibili su una pagina web. Con HTML, si possono definire titoli, paragrafi, tabelle, e tanto altro, dando forma al contenuto del sito. È fondamentale per creare pagine chiare e ben strutturate che funzionano su tutti i dispositivi. In breve, HTML serve a trasformare un'idea in una pagina web leggibile e navigabile, rendendo il sito accessibile a chiunque visiti.",
+        "css": "(Cascading Style Sheets) è utilizzato per dare stile e design alle pagine web. Permette di definire colori, font, layout e spaziature, rendendo i siti esteticamente piacevoli e ben organizzati. Grazie al CSS, un sito può essere personalizzato per avere un aspetto unico e coerente su tutti i dispositivi.",
+        "js": "è un linguaggio di programmazione che permette di rendere le pagine web interattive e dinamiche. Con JS si possono creare animazioni, gestire eventi, e aggiornare i contenuti della pagina senza ricaricarla. È fondamentale per migliorare l’esperienza dell’utente su un sito web.",
+        "tsx": "è un'estensione di JavaScript che aggiunge tipizzazione statica, rendendo il codice più stabile e facile da mantenere. È molto utilizzato nello sviluppo di applicazioni complesse, in particolare con librerie come React.",
+        "json": "(JavaScript Object Notation) è un formato leggero per lo scambio di dati tra server e applicazioni. È facile da leggere e scrivere sia per i programmatori che per le macchine, ed è ampiamente utilizzato nelle API e nello sviluppo web.",
+        "csharp": "è un linguaggio di programmazione moderno e orientato agli oggetti sviluppato da Microsoft. È ampiamente utilizzato per creare applicazioni desktop, web e mobile, grazie alla sua sintassi chiara e alla potenza del framework .NET. C# supporta la programmazione orientata agli oggetti, la programmazione funzionale e offre un ampio ecosistema di librerie e strumenti che semplificano lo sviluppo. È particolarmente popolare nello sviluppo di applicazioni per Windows e nel mondo del gaming, grazie al supporto di Unity."
+      }
+    },
+    "fe": {
+      "title": "Strumenti per il Front-End",
+      "description": {
+        "sass": "(Syntactically Awesome Stylesheets) è un'estensione di CSS che semplifica la scrittura di stili complessi. Offre funzionalità avanzate come variabili, nesting e mixin, rendendo il codice CSS più pulito e riutilizzabile.",
+        "bootstrap": "è un framework CSS che facilita la creazione di siti web responsive. Fornisce una serie di componenti pronti all'uso come bottoni, form e griglie, riducendo il tempo necessario per sviluppare interfacce utente moderne e compatibili con tutti i dispositivi.",
+        "react": "è una libreria JavaScript utilizzata per costruire interfacce utente interattive e dinamiche. Sviluppata da Facebook, consente di creare componenti riutilizzabili che facilitano lo sviluppo di applicazioni web scalabili e veloci.",
+        "nextjs": "è un framework React che semplifica la creazione di applicazioni web complesse. Offre funzionalità come il rendering lato server (SSR) e la generazione di pagine statiche (SSG), migliorando le prestazioni e l'ottimizzazione per i motori di ricerca. È ideale per siti web veloci e scalabili.",
+        "mui": "è una libreria di componenti React basata sul design di Material Design di Google. Consente di creare interfacce utente eleganti e moderne in modo rapido, con componenti predefiniti come bottoni, form e layout, garantendo un'esperienza utente coerente.",
+        "i18n": ", o internazionalizzazione, è il processo di adattare un'applicazione a diverse lingue e regioni. Con strumenti di i18n, è possibile tradurre testi e formattare date e numeri per rendere le applicazioni accessibili a un pubblico globale.",
+        "yup": "è una libreria di validazione JavaScript che semplifica la gestione di schemi di validazione per form e dati. Consente di definire facilmente regole per i campi, garantendo che i dati siano corretti e conformi ai requisiti specificati prima di essere inviati.",
+        "ejs": "è un motore di template per Node.js che permette di generare HTML in modo dinamico utilizzando JavaScript. È particolarmente utile per creare pagine web che richiedono contenuti dinamici, come informazioni che cambiano in base all'utente o al contesto.",
+        "validatorjs": "è una libreria JavaScript che fornisce una serie di funzioni per validare e sanificare stringhe di testo, come email, URL, numeri di telefono e altro. È molto utile per garantire che i dati degli utenti siano corretti e sicuri.",
+        "jwt": "(JSON Web Token) è un metodo per creare token sicuri che permettono di autenticare gli utenti su applicazioni web. I token JWT sono utilizzati per garantire una comunicazione sicura tra client e server, rendendoli fondamentali per la gestione dell'autenticazione e dell'accesso.",
+        "tailwind": "è un framework CSS utility-first che consente di creare rapidamente interfacce utente personalizzate utilizzando classi predefinite. È flessibile e permette di personalizzare facilmente il design senza dover scrivere CSS da zero.",
+        "helmet": "è un middleware per applicazioni web basate su Node.js ed Express che migliora la sicurezza delle tue app impostando vari header HTTP. Aiuta a proteggere l'applicazione da vulnerabilità comuni, come attacchi di Cross-Site Scripting (XSS) e Clickjacking, fornendo una configurazione semplice e rapida. Utilizzando Helmet, puoi rendere la tua applicazione più sicura senza dover gestire manualmente ogni singolo header di sicurezza."
+      }
+    },
+    "be": {
+      "title": "Strumenti per il Back-End",
+      "description": {
+        "nodejs": "è un ambiente di runtime JavaScript lato server che consente di creare applicazioni server veloci e scalabili. È particolarmente adatto per lo sviluppo di API e applicazioni in tempo reale come chat e giochi online.",
+        "express": "è un framework per Node.js che semplifica la creazione di server e API. È leggero e flessibile, permettendo di gestire facilmente le rotte, le richieste HTTP e la logica lato server, rendendolo ideale per applicazioni web e backend.",
+        "mongodb": "è un database NoSQL che consente di gestire grandi quantità di dati in modo flessibile. Utilizza documenti simili a JSON per memorizzare i dati, rendendolo ideale per applicazioni dinamiche e progetti che richiedono scalabilità.",
+        "nodemailer": "è una libreria per Node.js che consente di inviare email direttamente da un'applicazione. È utilizzato per configurare e inviare messaggi email in modo semplice e flessibile, integrandosi con vari servizi di posta elettronica."
+      }
+    },
+    "versCont": {
+      "title": "Versionamento e Controllo del Codice",
+      "description": {
+        "git": "è un sistema di controllo di versione distribuito che permette di tenere traccia delle modifiche al codice sorgente durante lo sviluppo. È essenziale per lavorare in team, poiché consente di gestire diverse versioni di un progetto e collaborare in modo efficiente.",
+        "github": "è una piattaforma di hosting per progetti Git che permette di archiviare e condividere codice sorgente. È ideale per collaborare con altri sviluppatori, monitorare problemi e versioni, e distribuire software. Inoltre, fornisce strumenti per l'automazione dei flussi di lavoro e la gestione dei progetti."
+      }
+    },
+    "creation": {
+      "title": "Strumenti per la Creazione di Contenuti",
+      "description": {
+        "canva": "è uno strumento online che permette di creare grafiche, presentazioni e contenuti visivi in modo semplice e intuitivo. È ideale per creare immagini personalizzate per social media, brochure, e molto altro, anche senza competenze grafiche avanzate.",
+        "adobe": "è un'azienda leader nel settore del software creativo e multimediale, famosa per i suoi strumenti come Photoshop (per l'editing delle foto), Illustrator (per la grafica vettoriale), e Premiere Pro (per il montaggio video). Questi programmi sono utilizzati da professionisti e appassionati per creare immagini, video, grafica, documenti PDF e molto altro. Adobe offre anche Adobe Creative Cloud, una piattaforma che consente agli utenti di accedere ai suoi software e lavorare su progetti in modo collaborativo e su diversi dispositivi."
+      }
+    },
+    "builder": {
+      "title": "Piattaforme di Creazione di Siti Web",
+      "description": {
+        "wix": "è una piattaforma online che consente di creare siti web senza dover scrivere codice. Con una semplice interfaccia drag-and-drop, permette di costruire pagine web professionali, personalizzando design, layout e contenuti. È ideale per chi desidera creare un sito in modo rapido e intuitivo.",
+        "wordpress": "è una piattaforma online che ti permette di creare siti web e blog senza dover scrivere codice. Offre un'ampia gamma di temi e plugin per personalizzare il design, le funzionalità e i contenuti del tuo sito. È perfetto sia per i principianti che per gli sviluppatori avanzati, grazie alla sua flessibilità e alla possibilità di accedere al codice sorgente."
+      }
+    },
+    "editor": {
+      "title": "Editor di Codice",
+      "description": {
+        "vscode": "(VS Code) è un editor di codice gratuito e facile da usare sviluppato da Microsoft. Permette di scrivere, modificare e organizzare codice in diversi linguaggi di programmazione, rendendolo ideale sia per principianti che per professionisti. Grazie alla sua vasta libreria di estensioni, è possibile personalizzare VS Code per lo sviluppo web, la creazione di app e molto altro.",
+        "webstorm": "è un editor di codice avanzato sviluppato da JetBrains, progettato per lo sviluppo web. Supporta una vasta gamma di linguaggi come JavaScript, TypeScript, HTML e CSS, oltre a framework come React, Vue e Angular, rendendolo adatto sia ai principianti che agli sviluppatori esperti."
+      }
+    },
+    "devTools": {
+      "title": "Strumenti di Sviluppo",
+      "description": {
+        "nvm": "strumento per gestire diverse versioni di Node.js su un singolo sistema, utile per ambienti di sviluppo con versioni diverse.",
+        "npm": "gestore di pacchetti per JavaScript, utilizzato per installare e gestire le dipendenze nei progetti Node.js.",
+        "postman": "è uno strumento per testare le API che facilita la creazione, la convalida e la documentazione delle richieste HTTP.",
+        "mailgen": "è una libreria per generare email HTML e testo a partire da template strutturati, ideale per notifiche e fatturazioni"
+      }
+    }
+  },
+  "projects": {
+    "title": "Top Progetti",
+    "text": "👉 Esplora i miei progetti, dove la creatività incontra la tecnologia. Ogni progetto riflette il mio impegno nell'utilizzare le migliori pratiche di sviluppo e nel creare esperienze utente intuitive e coinvolgenti.",
+    "description": {
+      "1": "Un sito web dove puoi creare e gestire la tua libreria personale, registrando i libri che possiedi. Non è una piattaforma per leggere, ma un luogo dove organizzare e tenere traccia dei tuoi libri, creando una lista completa della tua collezione.",
+      "2": "Un sito web dedicato alla presentazione delle tue competenze professionali e della tua esperienza lavorativa. Una piattaforma ideale per mostrare il tuo CV, i progetti svolti e le testimonianze dei clienti, facilitando i potenziali datori di lavoro o clienti a scoprire il tuo valore e contattarti.",
+      "3": "Un sito web per un'azienda che opera nel settore dell'edilizia, specializzata in servizi come ristrutturazioni, tinteggiature, lavori di muratura e costruzioni. Offre una panoramica dei servizi disponibili, una galleria dei progetti realizzati e le testimonianze dei clienti. Include anche un modulo per richiedere preventivi, facilitando il contatto diretto con i clienti interessati ai servizi offerti. Il progetto è attualmente in fase di sviluppo."
+    }
+  },
+  "work": {
+    "title": "Esperienza Lavorativa",
+    "progress": "in corso",
+    "barman": {
+      "name": "Barman",
+      "info": "Ho acquisito una solida esperienza nel settore dell'ospitalità, iniziando come pasticcere per diversi anni, dove ho sviluppato precisione e capacità di gestione del tempo. In seguito, mi sono concentrato su ruoli come cameriere e barista, affinando le mie abilità nel servizio clienti, nella gestione del bar e nel lavoro di squadra. Abituato a lavorare in ambienti dinamici, fornisco un servizio efficiente e cortese, con competenze nella gestione della cassa e nell'elaborazione degli ordini."
+    },
+    "webDev": {
+      "name": "Sviluppatore Web",
+      "info": "Con oltre un anno di esperienza nella programmazione e nello sviluppo software, ho perfezionato le mie competenze in vari linguaggi di programmazione e framework. Il mio focus è stato sulla creazione di applicazioni web responsive, utilizzando tecnologie moderne come HTML, CSS, JavaScript e framework come React. Sono impegnato nell'apprendimento continuo e nell'adattamento a nuovi strumenti e metodologie per migliorare le mie capacità di sviluppo."
+    }
+  },
+  "contact": {
+    "title": { "1": "Contattami con", "2": "" },
+    "word": "OPPURE"
+  },
+  "form": {
+    "btn": "INVIA EMAIL",
+    "placeholder": {
+      "name": "Nome",
+      "surname": "Cognome",
+      "email": "Email",
+      "text": "Messaggio"
+    },
+    "errors": {
+      "name": "Inserisci un nome",
+      "surname": "Inserisci un cognome",
+      "email": {
+        "1": "Inserisci un'email",
+        "2": "Inserisci un'email valida"
+      },
+      "text": "Invia un messaggio",
+      "terms": "Devi accettare i termini e le condizioni"
+    },
+    "accept": "Ho letto e accetto i",
+    "terms_conditions": "Termini e Condizioni"
+  },
+  "footer": {
+    "copyright": ". Tutti i diritti riservati.",
+    "paragraph": "Design e sviluppo: ",
+    "terms-cond": "Termini e Condizioni"
+  },
+  "terms-cond": {
+    "title": "Termini e Condizioni",
+    "update": "Ultimo aggiornamento:",
+    "introduction": {
+      "title": "Introduzione",
+      "paragraph": "Benvenuti sul mio sito web, aramis.dev. Questo sito funge da portfolio personale e piattaforma per la pubblicità dei miei servizi di web development. Utilizzando questo sito, accetti i seguenti termini e condizioni. Se non sei d'accordo, ti invitiamo a non utilizzare il sito."
+    },
+    "info": {
+      "title": "1. Informazioni sul Sito",
+      "paragraph": "Questo sito include informazioni personali, tra cui ma non limitato a:",
+      "list": {
+        "1": "Nome e cognome",
+        "2": "Foto",
+        "3": "Curriculum Vitae",
+        "4": "Link ai profili social (Instagram, LinkedIn, GitHub)",
+        "5": "Modulo di contatto per richieste"
+      }
+    },
+    "usage": {
+      "title": "2. Utilizzo del sito",
+      "paragraph": "L'uso di questo sito è consentito solo per scopi legali e conformi ai presenti termini e condizioni. Non è consentito utilizzare il sito per attività fraudolente o abusive."
+    },
+    "module": {
+      "title": "3. Modulo di Contatto",
+      "paragraph": " Il sito include un modulo di contatto dove gli utenti possono inserire nome, cognome, email e messaggio. I dati forniti tramite questo modulo saranno utilizzati esclusivamente per contattare l'utente in relazione alla sua richiesta. Non conserverò queste informazioni oltre il tempo necessario a gestire la richiesta, salvo diversa indicazione."
+    },
+    "rights": {
+      "title": "4. Diritti di Proprietà Intellettuale",
+      "paragraph": "Tutti i contenuti presenti su questo sito, inclusi testi, immagini e grafica, sono protetti da copyright e altri diritti di proprietà intellettuale. Non è consentito copiare, riprodurre o distribuire in alcun modo i contenuti di questo sito senza il mio esplicito consenso scritto."
+    },
+    "resp": {
+      "title": "5. Limitazione di Responsabilità",
+      "paragraph": "Non mi assumo alcuna responsabilità per eventuali danni diretti, indiretti o consequenziali derivanti dall'uso del sito. Non garantisco che le informazioni fornite siano accurate, complete o aggiornate."
+    },
+    "contact": {
+      "title": "6. Contatto",
+      "paragraph": "Se desideri contattarmi, puoi farlo attraverso i seguenti metodi:",
+      "list": {
+        "1": "Email:",
+        "2": "Telefono/Whatsapp:"
+      }
+    },
+    "accept": {
+      "title": "7. Accettazione dei Termini",
+      "paragraph": "Utilizzando il sito, accetti di rispettare e di essere vincolato da questi Termini e Condizioni. Se non accetti, ti prego di non utilizzare il sito."
+    },
+    "modif": {
+      "title": "8. Modifiche ai Termini",
+      "paragraph": "Mi riservo il diritto di modificare questi termini e condizioni in qualsiasi momento. Le modifiche saranno pubblicate su questa pagina e diventeranno effettive immediatamente dopo la pubblicazione."
+    },
+    "law": {
+      "title": "9. Legge Applicabile",
+      "paragraph": "Questi termini e condizioni sono regolati dalla legge italiana. In caso di controversie, si farà riferimento al foro competente."
+    }
+  }
+}

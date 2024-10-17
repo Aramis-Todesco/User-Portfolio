@@ -1,0 +1,123 @@
+.project-detail-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  z-index: 999;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.project-detail-content {
+  flex-direction: column;
+  position: relative;
+  background: var(--white);
+  color: var(--black);
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 400px;
+  width: 90%;
+  text-align: center;
+  box-shadow: var(--d-shadow);
+  z-index: 1001;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.button-wrapper {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+.project-close-button {
+  width: auto;
+  border: none;
+  background: var(--white);
+  color: var(--red);
+}
+.project-close-button:hover {
+  cursor: pointer;
+}
+
+.detail-image-container {
+  position: relative;
+}
+
+.detail-images-wrapper {
+  width: 100%;
+  max-height: 240px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.detail-image {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.detail-programs-wrapper {
+  position: absolute;
+  top: 3px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #ffffff7e;
+}
+
+.detail-program-icon {
+  background-color: none;
+}
+
+.project-detail-content h2 {
+  color: var(--l-green);
+  font-weight: bold;
+}
+
+.project-detail-content hr {
+  width: auto;
+}
+
+.project-close-button svg {
+  border-radius: 5px;
+}
+
+.detail-project-github-btn {
+  background-color: transparent;
+}
+
+.detail-project-github-btn svg {
+  color: var(--black);
+}
+
+.detail-project-github-btn:hover {
+  transform: scale(1.2);
+  transition: 1s;
+}
+
+@media (min-width: 900px) {
+  .project-detail-content {
+    flex-direction: row;
+    max-width: 850px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .project-detail-content {
+    max-width: 700px;
+  }
+}
+
+#dark .project-detail-content hr {
+  color: var(--l-orange);
+}
+
+#dark .project-detail-content h2 {
+  color: var(--l-orange);
+  font-weight: bold;
+}

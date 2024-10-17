@@ -1,0 +1,76 @@
+::placeholder {
+  color: var(--white-border);
+  opacity: 1;
+  font-weight: 300;
+}
+
+input,
+textarea {
+  padding: 10px 12px;
+  border: 1px solid var(--d-white-border);
+  border-radius: 10px;
+  margin-top: 5px;
+  width: 100%;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+input:focus:not([type="checkbox"]),
+textarea:focus {
+  box-shadow: none;
+  outline: 1px solid var(--l-green);
+}
+.checkbox {
+  outline: none;
+  width: auto;
+}
+
+.checkbox:hover {
+  cursor: pointer;
+}
+
+.terms-cond {
+  color: var(--l-orange);
+}
+.terms-cond:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  transition-duration: 1s;
+}
+
+button:focus {
+  box-shadow: none;
+  outline-width: 0px;
+}
+
+.error {
+  outline: 1px solid var(--red);
+}
+
+.button {
+  background-color: var(--l-dark-violet);
+  color: var(--white);
+  border-radius: 5px;
+  margin-top: 15px;
+  padding: 10px;
+  width: 70%;
+}
+
+.text-danger {
+  margin-block: 10px;
+}
+
+.button:hover {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+@media (max-width: 500px) {
+  .name-surname {
+    flex-direction: column;
+    row-gap: 0 !important;
+  }
+  .name-surname > div {
+    width: 100%;
+  }
+}

@@ -1,0 +1,46 @@
+.work-exp-section {
+  width: 90%;
+}
+.work {
+  background-color: var(--l-green-a);
+}
+
+.work-exp {
+  padding: 60px 0px;
+}
+
+.work-exp h2 {
+  font-weight: bold;
+  color: var(--l-green);
+}
+
+.work-exp hr {
+  color: var(--black);
+  width: 400px;
+  margin: 10px auto;
+}
+.work-exp .vertical-timeline-element-content {
+  position: relative;
+}
+
+.work-exp-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.work-exp .vertical-timeline-element-title {
+  color: var(--l-green);
+}
+
+.work-exp .vertical-timeline-element-subtitle {
+  color: var(--l-dark-violet-a);
+}
+
+#dark .work {
+  background-color: var(--d-light-black-a);
+}
+
+.work .vertical-timeline-element-icon {
+  background-color: var(--l-orange) !important;
+}

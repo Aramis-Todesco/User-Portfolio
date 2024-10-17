@@ -1,0 +1,11 @@
+{
+  "userGreeting": "Salve",
+  "userSignature": "Distinti saluti",
+  "userInstructions": "Per tornare al sito web",
+  "btnText": "Clicca qui!",
+  "userIntro": "Grazie per avermi contattato! Ecco una copia del suo messaggio:",
+  "userOutro": "Grazie per la sua comunicazione. Le risponderò al più presto.",
+  "successMessage": "Email inviata con successo.",
+  "errorMessage": "Errore nell'invio dell'email",
+  "userSubject": "Grazie per il suo messaggio!"
+}

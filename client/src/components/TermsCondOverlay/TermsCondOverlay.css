@@ -1,0 +1,40 @@
+.terms-cond-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(10px);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.terms-cond-content {
+  background-color: white;
+  max-width: 80vw;
+  max-height: 90vh;
+  border-radius: 8px;
+  position: relative;
+  overflow-y: scroll;
+}
+
+.close-button {
+  position: sticky;
+  top: 0;
+  left: 100%;
+  width: auto;
+  background-color: transparent;
+  color: var(--red);
+}
+
+.term-cond-list {
+  display: flex;
+  text-align: start;
+}
+
+.term-cond-list li {
+  list-style-type: disc;
+}

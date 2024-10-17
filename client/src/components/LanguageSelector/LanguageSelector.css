@@ -1,0 +1,41 @@
+.dropdown {
+  cursor: pointer;
+}
+
+.dropdown-toggle {
+  background-color: var(--white);
+  border: 1px solid var(--white-border);
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: var(--white);
+  border: 1px solid var(--white-border);
+  border-radius: 4px;
+  z-index: 1000;
+  list-style: none;
+  min-width: auto;
+}
+
+.flag-icon {
+  max-width: 20px;
+  max-height: 13px;
+  transition: all 0.3s;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  padding: 0;
+  width: 85px;
+}
+
+.flag-name {
+  flex: 1;
+}

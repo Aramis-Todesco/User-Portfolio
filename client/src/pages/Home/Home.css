@@ -1,0 +1,36 @@
+.home-container {
+  position: relative;
+  color: var(--white);
+  margin-top: 70px;
+  margin-bottom: 10px;
+}
+
+.home-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.home-text {
+  text-align: center;
+  line-height: 5px;
+}
+
+.home-text h1 {
+  color: #e0b50f;
+}
+
+@media (min-width: 750px) {
+  .home-container {
+    padding-left: 85px;
+    padding-right: 20px;
+    margin-top: 10px;
+  }
+  .home-content {
+    flex-direction: row;
+  }
+  .home-text {
+    text-align: start;
+  }
+}

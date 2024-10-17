@@ -1,0 +1,11 @@
+{
+  "userGreeting": "您好",
+  "userSignature": "此致",
+  "userInstructions": "返回网站",
+  "btnText": "点击这里！",
+  "userIntro": "感谢您与我联系！以下是您的信息副本：",
+  "userOutro": "感谢您的沟通。我会尽快回复您。",
+  "successMessage": "电子邮件发送成功。",
+  "errorMessage": "发送电子邮件时出错。",
+  "userSubject": "感谢您的信息！"
+}

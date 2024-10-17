@@ -1,0 +1,27 @@
+.sidebar-section {
+  background-color: var(--black);
+  width: 100%;
+}
+
+.sidebar {
+  height: 100%;
+  background-color: var(--l-dark-gray);
+  position: fixed;
+  width: 80px;
+  z-index: 1;
+  box-shadow: 2px 0 5px var(--light-black-a);
+}
+
+.sidebar-toggle-icons {
+  cursor: pointer;
+}
+
+.sidebar-home {
+  width: 100%;
+}
+
+@media (max-width: 750px) {
+  .sidebar {
+    display: none !important;
+  }
+}

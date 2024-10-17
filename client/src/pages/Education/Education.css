@@ -1,0 +1,54 @@
+.education-section {
+  width: 90%;
+}
+
+.education {
+  background-color: var(--l-green-a);
+}
+
+.education hr {
+  color: var(--l-green);
+  width: 400px;
+  margin: 10px auto;
+}
+
+.education h2 {
+  font-weight: bold;
+  color: var(--l-green);
+}
+
+.education a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--l-green);
+}
+
+.education .vertical-timeline-element-icon {
+  background-color: var(--l-orange) !important;
+}
+.education .vertical-timeline-element-title {
+  color: var(--l-green);
+}
+
+.education .vertical-timeline-element-subtitle {
+  color: var(--l-dark-violet);
+}
+
+.education .vertical-timeline-element-content {
+  position: relative;
+}
+
+.education-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+/* DARK MODE */
+#dark .education {
+  background-color: var(--d-light-black-a);
+}
+
+#dark .education {
+  color: var(--l-green);
+}

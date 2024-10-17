@@ -1,0 +1,17 @@
+.nav-items {
+  height: 100%;
+  justify-content: space-evenly;
+}
+
+.nav-logo {
+  width: 70px;
+}
+
+.nav-item {
+  color: var(--white);
+}
+
+.nav-link a {
+  cursor: pointer;
+  color: var(--white);
+}

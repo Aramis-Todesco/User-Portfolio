@@ -1,0 +1,85 @@
+/*CSS RESET*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --red: #ff0000;
+  --azure: #3bfcff;
+  --light-black-a: rgba(0, 0, 0, 0.2);
+  --black-a: rgba(0, 0, 0, 0.5);
+  --white-border: #cccccc;
+  --d-white-border: #d3d3d3;
+
+  --d-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  --d-black-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.17) 0px -3px 5px;
+  --whatsapp: #25d366;
+  --instagram: linear-gradient(
+    45deg,
+    #f09433 15%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+
+  /* LIGHT PALETE */
+  --l-orange: #f29f67;
+  --l-green: #138781;
+  --l-dark-violet: #1e1e2c;
+  --l-gray: #757575;
+  --l-light-gray: #232323;
+  --l-dark-gray: #1e1e1e;
+  --l-green-a: #1387812a;
+  --l-dark-violet-a: hsla(240, 19%, 15%, 0.471);
+  --l-gray-a: rgba(128, 128, 128, 0.101);
+  --l-blue: #638efd;
+
+  /* DARK PALETE */
+
+  --d-light-black: #251a21;
+  --d-white: #f4eee0;
+  --d-black-a: #00000026;
+  --d-light-black-a: #f1f1f1;
+  --d-gray-a: rgba(255, 255, 255, 0.095);
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style-type: none;
+}
+main {
+  position: relative;
+}
+
+/* DARK MODE */
+#dark {
+  background-color: var(--d-light-black);
+  color: var(--d-white);
+}
+
+#dark footer {
+  background-color: var(--d-white);
+  color: var(--black);
+}
+
+#dark .scroll-top {
+  color: var(--l-dark-violet);
+  background-color: var(--l-orange);
+}
+
+@media (min-width: 750px) {
+  main,
+  footer {
+    padding-left: 80px;
+  }
+}

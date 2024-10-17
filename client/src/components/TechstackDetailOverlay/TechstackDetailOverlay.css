@@ -1,0 +1,95 @@
+/* Overlay che copre lo sfondo con blur */
+.techstack-detail-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  z-index: 999; /* L'overlay ha un z-index elevato */
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Contenuto del dettaglio, centrato sopra il blur */
+.techstack-detail-content {
+  background-color: var(--white);
+  color: var(--black);
+  position: relative;
+  max-width: 500px;
+  width: 90%;
+  text-align: center;
+  box-shadow: var(--d-shadow);
+  z-index: 1001; /* Il contenuto del dettaglio è sopra all'overlay */
+}
+.techstack-detail-content h2 {
+  color: var(--l-green);
+}
+.techstack-close-button {
+  width: auto;
+  border: none;
+  background: var(--white);
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: var(--red);
+}
+
+.techstack-close-button svg {
+  border-radius: 5px;
+}
+.techstack-web-btn {
+  border-radius: 5px;
+  background-color: var(--l-blue);
+}
+.techstack-web-btn svg {
+  padding: 3px;
+  color: var(--white);
+}
+
+.techstack-web-btn:hover {
+  transform: scale(1.2);
+  transition: 1s;
+}
+
+.techstack-web-icon:hover {
+  color: var(--white);
+  transition: all 1s;
+}
+
+.techstack-web-link:hover {
+  background-color: var(--azure);
+  transition: all 1s;
+}
+
+/* Applica il blur agli elementi non selezionati quando viene visualizzato il dettaglio */
+.techstack-blurred-background .tech-card:not(.selected) {
+  filter: blur(5px);
+  opacity: 0.3;
+  transition: filter 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+/* L'elemento selezionato rimane nitido e sopra al blur */
+.techstack-item.selected .tech-card {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1001; /* L'elemento selezionato ha un z-index più alto */
+  width: 50vw;
+  transition: transform 0.3s ease-in-out, width 0.3s ease-in-out;
+  opacity: 1;
+}
+@media (min-width: 750px) {
+  .techstack-detail-content {
+    max-width: 1000px;
+  }
+}
+
+#dark .techstack-detail-content hr {
+  color: var(--l-orange);
+}
+
+#dark .techstack-detail-content h2 {
+  color: var(--l-orange);
+}
